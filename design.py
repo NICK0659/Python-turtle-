@@ -1,7 +1,7 @@
 # code to print star pattern using turtle
 import turtle as t 
 import time
-def particle():
+def particlestyle():
     print("enter the number of sides")
     n=int(input())
     t.bgcolor("black")
@@ -13,4 +13,4 @@ def particle():
         star.left(130)
     t.done()
 
-particle()
+particlestyle()
